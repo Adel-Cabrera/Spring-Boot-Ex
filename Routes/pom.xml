@@ -8,10 +8,10 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.darkonnen.firstproject</groupId>
-	<artifactId>firstproject</artifactId>
+	<groupId>com.darkonnen.routes</groupId>
+	<artifactId>Routes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>firstproject</name>
+	<name>Routes</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -34,10 +34,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-	    	<groupId>org.springframework.boot</groupId>
-	    	<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 
