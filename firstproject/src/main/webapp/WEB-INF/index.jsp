@@ -9,6 +9,7 @@
 <title>Home Page</title>
 </head>
 <body>
+	<p> <c:out value="${error}"></c:out> </p>
 	<h1>Welcome <c:out value="${dojoName}" /></h1>
 	<h2><c:out value="${ 2+2 }"/></h2>
 
