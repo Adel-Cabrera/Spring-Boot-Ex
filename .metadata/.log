@@ -2668,3 +2668,63 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 12:29:25.170
 !MESSAGE executing callback sts4.classpath.SKLMCjmY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.106
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.107
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.107
+!MESSAGE buffering callback sts4.classpath.SKLMCjmY DojoSurvey false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.108
+!MESSAGE executing callback sts4.classpath.SKLMCjmY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.111
+!MESSAGE executing callback sts4.classpath.SKLMCjmY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.229
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.231
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.232
+!MESSAGE buffering callback sts4.classpath.SKLMCjmY DojoSurvey false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.232
+!MESSAGE executing callback sts4.classpath.SKLMCjmY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.242
+!MESSAGE executing callback sts4.classpath.SKLMCjmY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.845
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.846
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.847
+!MESSAGE buffering callback sts4.classpath.SKLMCjmY DojoSurvey false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.847
+!MESSAGE executing callback sts4.classpath.SKLMCjmY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 13:04:33.854
+!MESSAGE executing callback sts4.classpath.SKLMCjmY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 15:18:17.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 15:18:17.384
+!MESSAGE classpath=77 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 15:18:17.385
+!MESSAGE buffering callback sts4.classpath.SKLMCjmY DojoSurvey false 77
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 15:18:17.386
+!MESSAGE executing callback sts4.classpath.SKLMCjmY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-28 15:18:17.421
+!MESSAGE executing callback sts4.classpath.SKLMCjmY SUCCESS [done]
