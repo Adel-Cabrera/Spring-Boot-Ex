@@ -8,10 +8,10 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.darkonnen.dojosurvey</groupId>
-	<artifactId>DojoSurvey</artifactId>
+	<groupId>com.darkonnen.ninjagoldgame</groupId>
+	<artifactId>NinjaGoldGame</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DojoSurvey</name>
+	<name>NinjaGoldGame</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -51,7 +51,7 @@
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-devtools</artifactId>
 		    <scope>runtime</scope>
-		</dependency>        	
+		</dependency>        			
 	</dependencies>
 
 	<build>
