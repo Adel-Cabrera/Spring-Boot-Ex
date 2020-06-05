@@ -12,54 +12,55 @@
 		<title>Ninja Gold Game</title>
 	</head>
 	<body>
-		<section>
-			<div class="">			
-				<div class="">
-			  		<div class="">
-			    			Your Gold: <input class="input" type="text" name="myGold" placeholder="<c:out value="${gold}"/>">
-			  		</div>
-				</div>
-				<div class="">
-		  			<div class="column">
-		    			<h1>Farm</h1>
-		    			<p>Earn 10-20 gold</p>
-		    			<form action="/findgold" method="POST">
-		    				<input class="button is-warning" type="submit" value="Find Gold!">
-		    				<input type="hidden" name="place" value="farm">
-		    			</form>
-		  			</div>
-		  			<div class="column">
-		    			<h1>Cave</h1>
-		    			<p>Earn 5-10 gold</p>
-		    			<form action="/findgold" method="POST"><input class="button is-warning" type="submit" value="Find Gold!"><input type="hidden" name="place" value="cave"></form>
-		  			</div>
-		  			<div class="column">
-		    			<h1>House</h1>
-		    			<p>Earn 2-5 gold</p>
-		    			<form action="/findgold" method="POST"><input class="button is-warning" type="submit" value="Find Gold!"><input type="hidden" name="place" value="house"></form>
-		  			</div>
-		  			<div class="column">
-		    			<h1>Casino!</h1>
-		    			<p>Earn 0-50 gold</p>
-		    			<form action="/findgold" method="POST">
-		    				<input class="button is-danger" type="submit" value="Find Gold!">
-		    				<input type="hidden" name="place" value="casino">
-		    			</form>
-		  			</div>
-				</div>
-				<div class="field">
-			  		<div class="control activities">
-			    		<% ArrayList<String> activities = (ArrayList<String>) session.getAttribute("activities");%>
-			    		<% Collections.reverse(activities); %>
-			    		<% for(String activity : activities) {%>
-			    			<p><%= activity %></p>
-			    		<% }%>
-	  				</div>
-				</div>
-				
+		<div class="container my-5">			
+			<div class="col">
+		   		Your Gold: <input class="input" type="text" name="myGold" placeholder="" value="<c:out value="${gold}"/>">
 			</div>
-		</section>
-		
+			<div class="row my-5 card-deck">
+				<div class="card col">
+		   			<h2>Farm</h2>
+		   			<p>(earns 10-20 gold)</p>
+		   			<form class="pb-2" action="/gold/gold" method="POST">
+		   				<button class="btn btn-info" type="submit" name="place" value="farm">Find Gold</button>
+		   			</form>
+				</div>
+				<div class="card col">
+		   			<h2>Cave</h2>
+		   			<p>(earns 5-10 gold)</p>
+		   			<form class="pb-2" action="/gold/gold" method="POST">
+		   				<button class="btn btn-info" type="submit" name="place" value="cave">Find Gold</button>
+		   			</form>
+				</div>
+				<div class="card col">
+		   			<h2>House</h2>
+		   			<p>(earns 2-5 gold)</p>
+		   			<form class="pb-2" action="/gold/gold" method="POST">
+		   				<button class="btn btn-info" type="submit" name="place" value="house">Find Gold</button>
+		   			</form>
+				</div>
+				<div class="card col">
+		   			<h2>Casino!</h2>
+		   			<p>(earns 0-50 gold)</p>
+		   			<form class="pb-2" action="/gold/gold" method="POST">
+		   				<button class="btn btn-info" type="submit" name="place" value="casino">Find Gold</button>
+		   			</form>
+		 		</div>
+			</div>
+			<div class="d-flex justify-content-center">
+				<div class="scroll">
+			   		<% ArrayList<String> activities =  (ArrayList<String>) session.getAttribute("activities");%>
+					<% Collections.reverse(activities); %>			   		
+		   		
+			   		<% for(int i = 0; i < activities.size(); i++) { %>
+        				<p><%= activities.get(i) %></p>      			
+        			<% } %>
+        			
+<%-- 			   		<% for(String activity : activities) {%> --%>
+<%-- 			   			<p><%= activity %></p> --%>
+<%-- 			   		<% }%> --%>
+	  			</div>
+			</div>
+		</div>
 		
 		
 		<script type="text/javascript" src="js/app.js"></script>
